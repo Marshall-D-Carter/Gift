@@ -1,0 +1,140 @@
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+
+}
+
+@keyframes pulse{
+
+    0%{
+        opacity:.6;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:.6;
+    }
+
+}
+
+@keyframes fadeUp{
+
+    0%{
+
+        opacity:0;
+
+        transform:
+        translateY(40px);
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:
+        translateY(0px);
+
+    }
+
+}
+
+@keyframes bloom{
+
+    0%{
+
+        opacity:0;
+
+        transform:
+        translate(-50%,-50%)
+        scale(.2)
+        rotate(0deg);
+
+    }
+
+    100%{
+
+        opacity:1;
+
+        transform:
+        translate(-50%,-50%)
+        scale(1)
+        rotate(360deg);
+
+    }
+
+}
+
+@keyframes flowerFall{
+
+    0%{
+
+        opacity:1;
+
+        transform:
+        translateY(0)
+        rotate(0deg);
+
+    }
+
+    100%{
+
+        opacity:0;
+
+        transform:
+        translateY(120vh)
+        rotate(180deg);
+
+    }
+
+}
+
+@keyframes glow{
+
+    0%{
+
+        filter:
+        drop-shadow(
+        0 0 0 rgba(255,255,255,0)
+        );
+
+    }
+
+    50%{
+
+        filter:
+        drop-shadow(
+        0 0 30px rgba(255,255,255,.8)
+        );
+
+    }
+
+    100%{
+
+        filter:
+        drop-shadow(
+        0 0 0 rgba(255,255,255,0)
+        );
+
+    }
+
+}
+
+#closed-envelope{
+
+    animation:
+    float 4s ease-in-out infinite;
+}

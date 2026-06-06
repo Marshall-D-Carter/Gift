@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gift</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/landing.css">
+<link rel="stylesheet" href="css/memory.css">
+<link rel="stylesheet" href="css/animations.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+</head>
+
+<body>
+
+<section id="landing">
+
+    <div class="overlay">
+
+        <img
+        src="assets/envelope/closed.png"
+        id="closed-envelope"
+        alt="Envelope">
+
+        <p class="tap-text">
+            Tap the letter ✉️
+        </p>
+
+    </div>
+
+</section>
+
+<section id="flower-screen">
+
+    <div id="flower-container"></div>
+
+    <div id="secret-message">
+        Tap to reveal secret 💖
+    </div>
+
+</section>
+
+<section id="memory-page">
+
+    <div class="letter-section">
+
+        <div class="letter-card">
+
+            <h2>For You 🌸</h2>
+
+            <p id="letter-text">
+
+                My love, every moment with you feels like a blessing I never want to end.
+
+                Your smile brightens my darkest days, and your love fills my heart with endless joy.
+
+                Thank you for being my strength, my happiness, and my greatest treasure.
+
+                I love you more deeply than words can ever express, today and always.
+
+                By meee cause I was bored 🤭
+
+                LYSM 💖
+
+            </p>
+
+        </div>
+
+        <img
+        src="assets/decorations/bouquet.png"
+        class="bouquet"
+        alt="Bouquet">
+
+    </div>
+
+    <div class="card">
+
+        <h2>🎵 A Fool For You</h2>
+
+        <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/1dv1aTh9GsPlijG0MU06nz"
+        width="100%"
+        height="152"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+        </iframe>
+
+    </div>
+
+    <div class="polaroid-section">
+
+        <div class="polaroid">
+
+            <img
+            src="assets/photo/her-photo.jpg"
+            alt="Her Photo">
+
+            <p>My Cutie Patootiee 💖</p>
+
+        </div>
+
+    </div>
+
+    <div class="video-wall">
+
+        <video controls>
+            <source src="assets/videos/video1.mp4" type="video/mp4">
+        </video>
+
+        <video controls>
+            <source src="assets/videos/video2.mp4" type="video/mp4">
+        </video>
+
+        <video controls>
+            <source src="assets/videos/video4.mp4" type="video/mp4">
+        </video>
+
+        <video controls>
+            <source src="assets/videos/video3.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📍 Chandigarh ~ Tikamgarh</h2>
+
+        <div id="map"></div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🎙️ Voice Note</h2>
+
+        <audio controls>
+
+            <source
+            src="assets/audio/voice-note.mp3"
+            type="audio/mpeg">
+
+        </audio>
+
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/envelope.js"></script>
+<script src="js/flowers.js"></script>
+<script src="js/reveal.js"></script>
+<script src="js/videos.js"></script>
+<script src="js/map.js"></script>
+
+</body>
+</html>
